@@ -1,0 +1,72 @@
+body {
+    background-color: #f0f2f5
+}
+ol, ul {
+    padding-left: 0;
+}
+/* == table custom css == */
+.thead {
+    font-size: 0.65rem !important;
+}
+tr td {
+   font-size: 0.875rem !important;
+   font-weight: 600;
+}
+
+/* == navbar custom css == */
+.offcanvas-body {
+    padding: 0;
+}
+.navbar-nav {
+    margin-right: 150px;
+}
+.navbar-nav > a {
+    margin-right: 10px;
+}
+.navbar-brand {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+.notify {
+    background: #5656567a;
+    border-radius: 6px;
+}
+/* == left sidebar == */
+.offcanvas {
+    width: 300px !important;
+    background-color: #343a40;
+    color: #fff;
+    top: 96px;
+}
+.list-menu {
+
+}
+.list-menu li {
+    margin: 20px 10px;
+    list-style: none;
+}
+.list-menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 30px;
+    border-radius: 7px;
+    color: #fff;
+}
+.list-menu li .active {
+    background-color: #ff695f;
+}
+.list-menu li a:hover {
+    background-color: #505054;
+}
+
+/*media*/
+
+@media (max-width: 992px) {
+    .content {
+        margin-left: auto;
+    }
+}
